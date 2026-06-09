@@ -1,26 +1,26 @@
 class ClaudeVis < Formula
   desc "Animated terminal sprites for your running Claude Code agents"
   homepage "https://github.com/turleynerd/claude-vis"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/turleynerd/claude-vis/releases/download/v0.3.0/claude-vis-darwin-arm64.tar.gz"
-      sha256 "79d92c17cfcd697c23c3793a0b747e8d865868e975a987d1dc6f254dab1b520c"
+      url "https://github.com/turleynerd/claude-vis/releases/download/v0.4.0/claude-vis-darwin-arm64.tar.gz"
+      sha256 "8ee72544f29d9861ca6752ecf9bfe17fe0ae523198238a86f5fe257b4bbbcd22"
     else
-      url "https://github.com/turleynerd/claude-vis/releases/download/v0.3.0/claude-vis-darwin-x64.tar.gz"
-      sha256 "b6cb572d88f56ef9d0fe34d1c85563f86f7590b7c1ccdf084731919916c48541"
+      url "https://github.com/turleynerd/claude-vis/releases/download/v0.4.0/claude-vis-darwin-x64.tar.gz"
+      sha256 "4156ca083f57e6cb284ab20f0e6c46d11bd26375b9e85176d05f51bdf117e613"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/turleynerd/claude-vis/releases/download/v0.3.0/claude-vis-linux-arm64.tar.gz"
-      sha256 "3099171da317e8fb772f9b268357cb4687bdf0f5991b857c38d9f7d3cd56cdf8"
+      url "https://github.com/turleynerd/claude-vis/releases/download/v0.4.0/claude-vis-linux-arm64.tar.gz"
+      sha256 "a85af29700e6ff177890b55a93f699955fd427f76debe3f74f1812ae330856f5"
     else
-      url "https://github.com/turleynerd/claude-vis/releases/download/v0.3.0/claude-vis-linux-x64.tar.gz"
-      sha256 "1b6db281b787ed790cc53ad2c1089797ce9a5d16289f04b194572090aead6e16"
+      url "https://github.com/turleynerd/claude-vis/releases/download/v0.4.0/claude-vis-linux-x64.tar.gz"
+      sha256 "cb52dbc7f578268181786693b32f75b696a485690dafd944be334949612eecfc"
     end
   end
 
